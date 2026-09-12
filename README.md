@@ -72,3 +72,4 @@ Raw competition data is not included in this repository. Please access the origi
 ## Author
 
 **Chloe Liu**  
+Customer Retention & Marketing Analytics Portfolio
