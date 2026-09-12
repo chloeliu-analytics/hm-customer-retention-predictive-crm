@@ -33,6 +33,16 @@ How can H&M identify Recent Occasional customers who are likely—or unlikely—
 6. Propensity decile validation
 7. CRM strategy development based on predicted repurchase likelihood
 
+## CRM Strategy
+
+The final model supports differentiated CRM treatment:
+
+- **High propensity:** low-cost nurture, personalized recommendations, loyalty progress, and reduced unnecessary discounting
+- **Mid propensity:** habit-building, category discovery, timed reminders, and light incentive testing
+- **Low propensity:** selective win-back campaigns, stronger value-led offers, preference refresh, and controlled contact frequency
+
+The model is designed to prioritize customers based on natural repurchase likelihood. Randomized holdout testing should then be used to measure the incremental impact of specific CRM actions.
+
 ## Tools
 
 - SQL
@@ -44,34 +54,12 @@ How can H&M identify Recent Occasional customers who are likely—or unlikely—
 - HistGradientBoosting
 - Tableau
 
-## CRM Strategy
+## Project Resources
 
-The final model supports differentiated CRM treatment:
-
-- **High propensity:** low-cost nurture, personalized recommendations, loyalty progress, and reduced unnecessary discounting
-- **Mid propensity:** habit-building, category discovery, timed reminders, and light incentive testing
-- **Low propensity:** selective win-back campaigns, stronger value-led offers, preference refresh, and controlled contact frequency
-
-The model is designed to prioritize customers based on natural repurchase likelihood. Randomized holdout testing should then be used to measure the incremental impact of specific CRM actions.
-
-## Tableau Dashboard
-
-Interactive Tableau dashboards were created to visualize customer lifecycle segments and repurchase propensity.
-
-[View Interactive Dashboard](https://public.tableau.com/app/profile/chloe.liu3692/viz/HMDashboard_17890951816630/HMRepurchasePropensityPredictiveCRMDashboard)
-
-## Project Files
-
+- [View Full Report](./report/HM_Customer_Retention_Predictive_CRM_Report.pdf)
+- [Explore Interactive Tableau Dashboard](https://public.tableau.com/app/profile/chloe.liu3692/viz/HMDashboard_17890951816630/HMRepurchasePropensityPredictiveCRMDashboard)
 - [SQL Scripts](./sql/)
-- [Python Analysis](./notebooks/)
-- [Full Report](./H&M_Customer_Retention_Predictive_CRM_Report.pdf)
-- [Interactive Tableau Dashboard](https://public.tableau.com/app/profile/chloe.liu3692/viz/HMDashboard_17890951816630/HMRepurchasePropensityPredictiveCRMDashboard)
-
-## Full Report
-
-[View Full Report](./H&M_Customer_Retention_Predictive_CRM_Report.pdf)
-
-A detailed case study covering segmentation, feature selection, modeling, validation, CRM strategy, and implementation.
+- [Python Analysis](./python/)
 
 ## Data Source
 
