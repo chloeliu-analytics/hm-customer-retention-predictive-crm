@@ -13,7 +13,8 @@ The analysis combines customer segmentation, behavioral profiling, propensity mo
 - 985,967 customers analyzed
 - 31M+ transactions
 - 4 lifecycle customer segments identified
-- 328,787 Recent Occasional customers prioritized for modeling
+- 328,787 Recent Occasional customers identified as the priority retention cohort
+- 65,758 customers included in the held-out test set
 - 37.9% observed 120-day repurchase rate
 - 65.3% repurchase rate among the top propensity decile
 - 16.4% repurchase rate among the bottom propensity decile
